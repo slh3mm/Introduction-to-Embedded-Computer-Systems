@@ -1,0 +1,13 @@
+"./Clock.obj"
+"./CortexM.obj"
+"./LED.obj"
+"./ReceiveTimerInputCapture.obj"
+"./TransmitTimer.obj"
+"./UART0.obj"
+"./main.obj"
+"./receive.obj"
+"./startup_msp432p401r_ccs.obj"
+"./system_msp432p401r.obj"
+"./transmit.obj"
+"../msp432p401r.cmd"
+-llibc.a

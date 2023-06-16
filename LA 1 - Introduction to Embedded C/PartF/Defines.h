@@ -1,0 +1,23 @@
+#ifndef DEFINES_H_
+#define DEFINES_H_
+
+#define TRUE 1
+#define FALSE 0
+
+#define CLOCK_FREQUENCY 48000000
+
+#if (CLOCK_FREQUENCY == 48000000)
+#define MCLK_DIVIDER  CS_CTL1_DIVM__1       // For 48 MHz MCLK
+#define SMCLK_DIVIDER CS_CTL1_DIVS__4       // For 12 MHz SMCLK
+#elif (CLOCK_FREQUENCY == 24000000)
+#define MCLK_DIVIDER  CS_CTL1_DIVM__2       // For 24 MHz MCLK
+#define SMCLK_DIVIDER CS_CTL1_DIVS__4       // For 12 MHz SMCLK
+#elif (CLOCK_FREQUENCY == 12000000)
+#define MCLK_DIVIDER  CS_CTL1_DIVM__4       // For 12 MHz MCLK
+#define SMCLK_DIVIDER CS_CTL1_DIVS__4       // For 12 MHz SMCLK
+#elif (CLOCK_FREQUENCY == 3000000)
+#define MCLK_DIVIDER  CS_CTL1_DIVM__16      // For 3 MHz MCLK
+#define SMCLK_DIVIDER CS_CTL1_DIVS__16      // For 3 MHz SMCLK
+#endif
+
+#endif
