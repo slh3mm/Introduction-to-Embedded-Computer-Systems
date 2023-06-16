@@ -8,12 +8,11 @@ Students are introduced to the architecture of the Texas Instruments MSP 432&nbs
 
 A list of the Learning Activities can be seen below.
 
-Introduction to Embedded C
+## Introduction to Embedded C
 
 You begin the semester with a series of projects to help you learn the C programming language, especially as used within an embedded environment.
 
-Software-Implemented Finite State Machines
-
+## Software-Implemented Finite State Machines
 Several assignments deal with the design of a Finite State Machine (FSM), which is then implemented in software. Examples includes debouncing a switch, decoding quadrature encoding sequences, and digital filters.
 
 Timers and Interrupts
